@@ -1,0 +1,45 @@
+
+
+
+/* Blog Header (Photo) */
+
+#body-header{
+    background-image: url("macbook_mouse.jpg");
+    height: 65vh;
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* Horrizontal List Of the Home,--- */
+
+
+.horizontal-list{
+/*  for removing the dots in the list */
+list-style: none;
+padding: 0px;
+
+}
+
+.hover :hover{
+    color: rgb(235, 13, 13);
+    border-bottom:1px solid rgb(26, 218, 54) ;
+    transition: color 0.5s , border-bottom 0.8s;
+}
+
+
+.text-center{
+    text-align: center;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+.horizontal-list li a{
+    text-decoration: none;
+    color: azure;
+    opacity: 1;
+}
