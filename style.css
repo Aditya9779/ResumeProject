@@ -1,6 +1,4 @@
 
-
-
 /* Blog Header (Photo) */
 
 #body-header{
@@ -20,6 +18,7 @@
 /*  for removing the dots in the list */
 list-style: none;
 padding: 0px;
+margin: 0px;
 
 }
 
@@ -35,11 +34,50 @@ padding: 0px;
 }
 .horizontal-list li{
     display: inline-block;
-    margin: 0px 8px 8px 0px;
+    margin: 8px 8px 8px 0px;
+    font-size: 20px;
 }
 
 .horizontal-list li a{
     text-decoration: none;
     color: azure;
     opacity: 1;
+}
+
+
+/* Header 2 */
+#my-name{
+    text-align: center;
+    color: rgb(228, 227, 237);
+    margin-top: 100px;
+    font-size: xx-large;
+   
+}
+#my-name:hover{
+    color: chartreuse;
+   
+}
+
+#header-2 #icons li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px;
+}
+
+
+
+.mar{
+    margin-top: 0px;
+    margin-left: -20px;
+    padding: 8px;
+     
+}
+.pad{
+    padding: 4px;
+    border-radius: 50%;
+}
+#icons ul li a i:hover{
+/* color: black; */
+box-shadow: 0px 0px 6px 4px rgb(201, 24, 24)
+
 }
