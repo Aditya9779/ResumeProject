@@ -171,6 +171,12 @@ section:nth-child(2n + 1) {
 
 /*Skills Section*/
 
+.paddingforAndroid{
+    padding-left: 10px;
+font-size: small;
+    
+}
+
 .skills-display {
     width: 75%;
     padding: 10px;
@@ -303,5 +309,5 @@ section:nth-child(2n + 1) {
 
 .fifty-percent {
     height: inherit;
-    width: 50%;
+    width: 70%;
 }
