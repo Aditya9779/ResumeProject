@@ -2,7 +2,7 @@
 /* Blog Header (Photo) */
 
 #body-header{
-    background-image: url("photo/macbook_mouse.jpg");
+    background-image: url("macbook_mouse.jpg");
     height: 65vh;
     opacity: 0.8;
     background-attachment: fixed;
