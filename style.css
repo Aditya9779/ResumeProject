@@ -110,7 +110,7 @@ section {
 }
 
 section:nth-child(2n) {
-    background-color: white;
+    background-color: rgb(229, 146, 146);
 }
 
 section:nth-child(2n + 1) {
